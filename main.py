@@ -17,6 +17,7 @@ _DEFAULT_BASE_URL = "https://api.openai.com/v1"
 _DEFAULT_TIMEOUT_SECONDS = 60
 _SAFE_FILE_LIMIT = 10
 _SAFE_LINE_LIMIT = 200
+_SAFE_ = 200
 _SECRET_PATTERNS = (
     re.compile(r"(?i)(api[_-]?key|token|secret|password)(\s*[=:]\s*)([^\s,;]+)"),
     re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE),
